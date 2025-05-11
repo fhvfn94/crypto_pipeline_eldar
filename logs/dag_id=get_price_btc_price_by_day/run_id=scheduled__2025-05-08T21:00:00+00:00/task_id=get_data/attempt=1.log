@@ -1,0 +1,115 @@
+[2025-05-10T03:28:40.139+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-10T03:28:40.237+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_price_btc_price_by_day.get_data scheduled__2025-05-08T21:00:00+00:00 [queued]>
+[2025-05-10T03:28:40.321+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_price_btc_price_by_day.get_data scheduled__2025-05-08T21:00:00+00:00 [queued]>
+[2025-05-10T03:28:40.322+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2025-05-10T03:28:40.354+0000] {taskinstance.py:2327} INFO - Executing <Task(_PythonDecoratedOperator): get_data> on 2025-05-08 21:00:00+00:00
+[2025-05-10T03:28:40.378+0000] {warnings.py:110} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=44) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-10T03:28:40.381+0000] {standard_task_runner.py:63} INFO - Started process 45 to run task
+[2025-05-10T03:28:40.373+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'get_price_btc_price_by_day', 'get_data', 'scheduled__2025-05-08T21:00:00+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/get_price_btc_price_by_day.py', '--cfg-path', '/tmp/tmpad7_rtwv']
+[2025-05-10T03:28:40.386+0000] {standard_task_runner.py:91} INFO - Job 6: Subtask get_data
+[2025-05-10T03:28:40.626+0000] {task_command.py:426} INFO - Running <TaskInstance: get_price_btc_price_by_day.get_data scheduled__2025-05-08T21:00:00+00:00 [running]> on host 840719eb5226
+[2025-05-10T03:28:40.907+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='get_price_btc_price_by_day' AIRFLOW_CTX_TASK_ID='get_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-08T21:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-08T21:00:00+00:00'
+[2025-05-10T03:28:40.908+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-10T03:28:40.909+0000] {logging_mixin.py:188} INFO - Данные за период с 2025-05-08 21:00:00+00:00 по 2025-05-09 21:00:00+00:00
+[2025-05-10T03:28:41.404+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-10T03:28:41.405+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 265, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/get_price_btc_price_by_day.py", line 34, in get_data
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.bybit.com/v2/public/tickers?symbol=BTCUSD
+[2025-05-10T03:28:41.447+0000] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=get_price_btc_price_by_day, task_id=get_data, execution_date=20250508T210000, start_date=20250510T032840, end_date=20250510T032841
+[2025-05-10T03:28:41.479+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 6 for task get_data (404 Client Error: Not Found for url: https://api.bybit.com/v2/public/tickers?symbol=BTCUSD; 45)
+[2025-05-10T03:28:41.518+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-05-10T03:28:41.597+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-10T03:28:41.606+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2025-05-10T03:36:23.709+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-10T03:36:23.770+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_price_btc_price_by_day.get_data scheduled__2025-05-08T21:00:00+00:00 [queued]>
+[2025-05-10T03:36:23.786+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_price_btc_price_by_day.get_data scheduled__2025-05-08T21:00:00+00:00 [queued]>
+[2025-05-10T03:36:23.786+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2025-05-10T03:36:23.813+0000] {taskinstance.py:2327} INFO - Executing <Task(_PythonDecoratedOperator): get_data> on 2025-05-08 21:00:00+00:00
+[2025-05-10T03:36:23.824+0000] {warnings.py:110} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=73) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-10T03:36:23.831+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'get_price_btc_price_by_day', 'get_data', 'scheduled__2025-05-08T21:00:00+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/get_price_btc_price_by_day.py', '--cfg-path', '/tmp/tmp_jslroo6']
+[2025-05-10T03:36:23.835+0000] {standard_task_runner.py:91} INFO - Job 19: Subtask get_data
+[2025-05-10T03:36:23.837+0000] {standard_task_runner.py:63} INFO - Started process 75 to run task
+[2025-05-10T03:36:23.972+0000] {task_command.py:426} INFO - Running <TaskInstance: get_price_btc_price_by_day.get_data scheduled__2025-05-08T21:00:00+00:00 [running]> on host 840719eb5226
+[2025-05-10T03:36:24.233+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='get_price_btc_price_by_day' AIRFLOW_CTX_TASK_ID='get_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-08T21:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-08T21:00:00+00:00'
+[2025-05-10T03:36:24.235+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-10T03:36:24.237+0000] {logging_mixin.py:188} INFO - Данные за период с 2025-05-08 21:00:00+00:00 по 2025-05-09 21:00:00+00:00
+[2025-05-10T03:36:24.645+0000] {logging_mixin.py:188} INFO - {'symbol': 'BTCUSDT', 'lastPrice': '103054.60', 'indexPrice': '103087.71', 'markPrice': '103054.60', 'prevPrice24h': '102543.60', 'price24hPcnt': '0.004983', 'highPrice24h': '104330.10', 'lowPrice24h': '102264.10', 'prevPrice1h': '103056.80', 'openInterest': '46850.589', 'openInterestValue': '4828168709.16', 'turnover24h': '8354897792.3069', 'volume24h': '81075.9720', 'fundingRate': '0.0001', 'nextFundingTime': '1746864000000', 'predictedDeliveryPrice': '', 'basisRate': '', 'deliveryFeeRate': '', 'deliveryTime': '0', 'ask1Size': '7.351', 'bid1Price': '103054.50', 'ask1Price': '103054.60', 'bid1Size': '6.852', 'basis': '', 'preOpenPrice': '', 'preQty': '', 'curPreListingPhase': ''}
+[2025-05-10T03:36:24.648+0000] {python.py:237} INFO - Done. Returned value was: {'data_interval_start': DateTime(2025, 5, 8, 21, 0, 0, tzinfo=Timezone('UTC')), 'data_interval_end': DateTime(2025, 5, 9, 21, 0, 0, tzinfo=Timezone('UTC')), 'last_price': 103054.6, 'volume_24h': 81075.972, 'high_price_24h': 104330.1, 'low_price_24h': 102264.1, 'bid_price': 103054.5, 'ask_price': 103054.6, 'open_interest': 46850.589}
+[2025-05-10T03:36:24.649+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-10T03:36:24.711+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=get_price_btc_price_by_day, task_id=get_data, execution_date=20250508T210000, start_date=20250510T033623, end_date=20250510T033624
+[2025-05-10T03:36:24.744+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-05-10T03:36:24.795+0000] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-10T03:36:24.797+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2025-05-10T03:50:06.952+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-10T03:50:07.016+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_price_btc_price_by_day.get_data scheduled__2025-05-08T21:00:00+00:00 [queued]>
+[2025-05-10T03:50:07.032+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_price_btc_price_by_day.get_data scheduled__2025-05-08T21:00:00+00:00 [queued]>
+[2025-05-10T03:50:07.033+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2025-05-10T03:50:07.064+0000] {taskinstance.py:2327} INFO - Executing <Task(_PythonDecoratedOperator): get_data> on 2025-05-08 21:00:00+00:00
+[2025-05-10T03:50:07.077+0000] {warnings.py:110} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=121) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-10T03:50:07.079+0000] {standard_task_runner.py:63} INFO - Started process 123 to run task
+[2025-05-10T03:50:07.083+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'get_price_btc_price_by_day', 'get_data', 'scheduled__2025-05-08T21:00:00+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/get_price_btc_price_by_day.py', '--cfg-path', '/tmp/tmp8i0v11s0']
+[2025-05-10T03:50:07.089+0000] {standard_task_runner.py:91} INFO - Job 43: Subtask get_data
+[2025-05-10T03:50:07.224+0000] {task_command.py:426} INFO - Running <TaskInstance: get_price_btc_price_by_day.get_data scheduled__2025-05-08T21:00:00+00:00 [running]> on host 840719eb5226
+[2025-05-10T03:50:07.444+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='get_price_btc_price_by_day' AIRFLOW_CTX_TASK_ID='get_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-08T21:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-08T21:00:00+00:00'
+[2025-05-10T03:50:07.446+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-10T03:50:07.448+0000] {logging_mixin.py:188} INFO - Данные за период с 2025-05-08 21:00:00+00:00 по 2025-05-09 21:00:00+00:00
+[2025-05-10T03:50:07.889+0000] {logging_mixin.py:188} INFO - {'symbol': 'BTCUSDT', 'lastPrice': '103149.00', 'indexPrice': '103188.31', 'markPrice': '103153.30', 'prevPrice24h': '102360.00', 'price24hPcnt': '0.007708', 'highPrice24h': '104330.10', 'lowPrice24h': '102264.10', 'prevPrice1h': '103190.10', 'openInterest': '46863.659', 'openInterestValue': '4834141075.92', 'turnover24h': '8297509109.5194', 'volume24h': '80514.1380', 'fundingRate': '0.0001', 'nextFundingTime': '1746864000000', 'predictedDeliveryPrice': '', 'basisRate': '', 'deliveryFeeRate': '', 'deliveryTime': '0', 'ask1Size': '2.410', 'bid1Price': '103148.90', 'ask1Price': '103149.00', 'bid1Size': '7.381', 'basis': '', 'preOpenPrice': '', 'preQty': '', 'curPreListingPhase': ''}
+[2025-05-10T03:50:07.892+0000] {python.py:237} INFO - Done. Returned value was: {'data_interval_start': DateTime(2025, 5, 8, 21, 0, 0, tzinfo=Timezone('UTC')), 'data_interval_end': DateTime(2025, 5, 9, 21, 0, 0, tzinfo=Timezone('UTC')), 'last_price': 103149.0, 'volume_24h': 80514.138, 'high_price_24h': 104330.1, 'low_price_24h': 102264.1, 'bid_price': 103148.9, 'ask_price': 103149.0, 'open_interest': 46863.659}
+[2025-05-10T03:50:07.893+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-10T03:50:07.969+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=get_price_btc_price_by_day, task_id=get_data, execution_date=20250508T210000, start_date=20250510T035007, end_date=20250510T035007
+[2025-05-10T03:50:08.047+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-05-10T03:50:08.101+0000] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-10T03:50:08.104+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2025-05-10T03:58:30.735+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-10T03:58:30.792+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_price_btc_price_by_day.get_data scheduled__2025-05-08T21:00:00+00:00 [queued]>
+[2025-05-10T03:58:30.812+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_price_btc_price_by_day.get_data scheduled__2025-05-08T21:00:00+00:00 [queued]>
+[2025-05-10T03:58:30.813+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2025-05-10T03:58:30.849+0000] {taskinstance.py:2327} INFO - Executing <Task(_PythonDecoratedOperator): get_data> on 2025-05-08 21:00:00+00:00
+[2025-05-10T03:58:30.858+0000] {warnings.py:110} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=132) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-10T03:58:30.861+0000] {standard_task_runner.py:63} INFO - Started process 133 to run task
+[2025-05-10T03:58:30.863+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'get_price_btc_price_by_day', 'get_data', 'scheduled__2025-05-08T21:00:00+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/get_price_btc_price_by_day.py', '--cfg-path', '/tmp/tmpwua8g8gy']
+[2025-05-10T03:58:30.868+0000] {standard_task_runner.py:91} INFO - Job 48: Subtask get_data
+[2025-05-10T03:58:31.013+0000] {task_command.py:426} INFO - Running <TaskInstance: get_price_btc_price_by_day.get_data scheduled__2025-05-08T21:00:00+00:00 [running]> on host 840719eb5226
+[2025-05-10T03:58:31.313+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='get_price_btc_price_by_day' AIRFLOW_CTX_TASK_ID='get_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-08T21:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-08T21:00:00+00:00'
+[2025-05-10T03:58:31.315+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-10T03:58:31.317+0000] {logging_mixin.py:188} INFO - Данные за период с 2025-05-08 21:00:00+00:00 по 2025-05-09 21:00:00+00:00
+[2025-05-10T03:58:31.693+0000] {logging_mixin.py:188} INFO - {'symbol': 'BTCUSDT', 'lastPrice': '103176.90', 'indexPrice': '103214.87', 'markPrice': '103178.24', 'prevPrice24h': '102381.40', 'price24hPcnt': '0.007769', 'highPrice24h': '104330.10', 'lowPrice24h': '102264.10', 'prevPrice1h': '103104.10', 'openInterest': '46814.832', 'openInterestValue': '4830271971.66', 'turnover24h': '8280478493.3776', 'volume24h': '80347.2090', 'fundingRate': '0.0001', 'nextFundingTime': '1746864000000', 'predictedDeliveryPrice': '', 'basisRate': '', 'deliveryFeeRate': '', 'deliveryTime': '0', 'ask1Size': '6.866', 'bid1Price': '103176.80', 'ask1Price': '103176.90', 'bid1Size': '5.256', 'basis': '', 'preOpenPrice': '', 'preQty': '', 'curPreListingPhase': ''}
+[2025-05-10T03:58:31.696+0000] {python.py:237} INFO - Done. Returned value was: {'data_interval_start': DateTime(2025, 5, 8, 21, 0, 0, tzinfo=Timezone('UTC')), 'data_interval_end': DateTime(2025, 5, 9, 21, 0, 0, tzinfo=Timezone('UTC')), 'last_price': 103176.9, 'volume_24h': 80347.209, 'high_price_24h': 104330.1, 'low_price_24h': 102264.1, 'bid_price': 103176.8, 'ask_price': 103176.9, 'open_interest': 46814.832}
+[2025-05-10T03:58:31.697+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-10T03:58:31.786+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=get_price_btc_price_by_day, task_id=get_data, execution_date=20250508T210000, start_date=20250510T035830, end_date=20250510T035831
+[2025-05-10T03:58:31.843+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-05-10T03:58:31.900+0000] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-10T03:58:31.902+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

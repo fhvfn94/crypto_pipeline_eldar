@@ -1,0 +1,22 @@
+[2025-05-11T11:49:05.720+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-11T11:49:05.840+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_price_btc_price_by_day.get_data scheduled__2025-05-08T21:00:00+00:00 [queued]>
+[2025-05-11T11:49:05.881+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_price_btc_price_by_day.get_data scheduled__2025-05-08T21:00:00+00:00 [queued]>
+[2025-05-11T11:49:05.882+0000] {taskinstance.py:2303} INFO - Starting attempt 4 of 4
+[2025-05-11T11:49:06.003+0000] {taskinstance.py:2327} INFO - Executing <Task(_PythonDecoratedOperator): get_data> on 2025-05-08 21:00:00+00:00
+[2025-05-11T11:49:06.013+0000] {warnings.py:110} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=43) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-11T11:49:06.015+0000] {standard_task_runner.py:63} INFO - Started process 50 to run task
+[2025-05-11T11:49:06.024+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'get_price_btc_price_by_day', 'get_data', 'scheduled__2025-05-08T21:00:00+00:00', '--job-id', '87', '--raw', '--subdir', 'DAGS_FOLDER/get_price_btc_price_by_day.py', '--cfg-path', '/tmp/tmp3njv94og']
+[2025-05-11T11:49:06.028+0000] {standard_task_runner.py:91} INFO - Job 87: Subtask get_data
+[2025-05-11T11:49:06.270+0000] {task_command.py:426} INFO - Running <TaskInstance: get_price_btc_price_by_day.get_data scheduled__2025-05-08T21:00:00+00:00 [running]> on host 840719eb5226
+[2025-05-11T11:49:06.774+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='get_price_btc_price_by_day' AIRFLOW_CTX_TASK_ID='get_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-08T21:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-08T21:00:00+00:00'
+[2025-05-11T11:49:06.778+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-11T11:49:06.780+0000] {logging_mixin.py:188} INFO - Данные за период с 2025-05-08 21:00:00+00:00 по 2025-05-09 21:00:00+00:00
+[2025-05-11T11:49:07.184+0000] {logging_mixin.py:188} INFO - {'symbol': 'BTCUSDT', 'lastPrice': '104402.90', 'indexPrice': '104446.20', 'markPrice': '104403.52', 'prevPrice24h': '103440.10', 'price24hPcnt': '0.009307', 'highPrice24h': '104986.70', 'lowPrice24h': '102880.00', 'prevPrice1h': '104351.70', 'openInterest': '47711.687', 'openInterestValue': '4981268067.94', 'turnover24h': '6113783873.8461', 'volume24h': '58829.4400', 'fundingRate': '0.0001', 'nextFundingTime': '1746979200000', 'predictedDeliveryPrice': '', 'basisRate': '', 'deliveryFeeRate': '', 'deliveryTime': '0', 'ask1Size': '4.358', 'bid1Price': '104402.90', 'ask1Price': '104403.00', 'bid1Size': '4.060', 'basis': '', 'preOpenPrice': '', 'preQty': '', 'curPreListingPhase': ''}
+[2025-05-11T11:49:07.187+0000] {python.py:237} INFO - Done. Returned value was: {'data_interval_start': DateTime(2025, 5, 8, 21, 0, 0, tzinfo=Timezone('UTC')), 'data_interval_end': DateTime(2025, 5, 9, 21, 0, 0, tzinfo=Timezone('UTC')), 'last_price': 104402.9, 'volume_24h': 58829.44, 'high_price_24h': 104986.7, 'low_price_24h': 102880.0, 'bid_price': 104402.9, 'ask_price': 104403.0, 'open_interest': 47711.687}
+[2025-05-11T11:49:07.188+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-11T11:49:07.283+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=get_price_btc_price_by_day, task_id=get_data, execution_date=20250508T210000, start_date=20250511T114905, end_date=20250511T114907
+[2025-05-11T11:49:07.342+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-05-11T11:49:07.430+0000] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-11T11:49:07.432+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

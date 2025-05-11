@@ -1,0 +1,20 @@
+[2025-05-11T12:12:36.601+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-11T12:12:36.649+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_price_btc_price_by_day.clear_xcoms manual__2025-05-11T09:49:00.339892+00:00 [queued]>
+[2025-05-11T12:12:36.663+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_price_btc_price_by_day.clear_xcoms manual__2025-05-11T09:49:00.339892+00:00 [queued]>
+[2025-05-11T12:12:36.664+0000] {taskinstance.py:2303} INFO - Starting attempt 5 of 5
+[2025-05-11T12:12:36.690+0000] {taskinstance.py:2327} INFO - Executing <Task(ClearXComsOperator): clear_xcoms> on 2025-05-11 09:49:00.339892+00:00
+[2025-05-11T12:12:36.699+0000] {warnings.py:110} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=143) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-11T12:12:36.700+0000] {standard_task_runner.py:63} INFO - Started process 145 to run task
+[2025-05-11T12:12:36.703+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'get_price_btc_price_by_day', 'clear_xcoms', 'manual__2025-05-11T09:49:00.339892+00:00', '--job-id', '136', '--raw', '--subdir', 'DAGS_FOLDER/get_price_btc_price_by_day.py', '--cfg-path', '/tmp/tmplpc6t7xe']
+[2025-05-11T12:12:36.707+0000] {standard_task_runner.py:91} INFO - Job 136: Subtask clear_xcoms
+[2025-05-11T12:12:36.809+0000] {task_command.py:426} INFO - Running <TaskInstance: get_price_btc_price_by_day.clear_xcoms manual__2025-05-11T09:49:00.339892+00:00 [running]> on host 840719eb5226
+[2025-05-11T12:12:37.012+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='get_price_btc_price_by_day' AIRFLOW_CTX_TASK_ID='clear_xcoms' AIRFLOW_CTX_EXECUTION_DATE='2025-05-11T09:49:00.339892+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-11T09:49:00.339892+00:00'
+[2025-05-11T12:12:37.013+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-11T12:12:37.033+0000] {clear_xcoms_operator.py:31} INFO - 1 XCOM ENTRY HAS BEEN DELETED.
+[2025-05-11T12:12:37.034+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-11T12:12:37.055+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=get_price_btc_price_by_day, task_id=clear_xcoms, execution_date=20250511T094900, start_date=20250511T121236, end_date=20250511T121237
+[2025-05-11T12:12:37.088+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-05-11T12:12:37.121+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-11T12:12:37.124+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

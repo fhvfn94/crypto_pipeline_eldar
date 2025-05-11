@@ -1,0 +1,224 @@
+[2025-05-10T03:46:29.702+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-10T03:46:29.788+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_price_btc_price_by_day.save_to_db scheduled__2025-05-08T21:00:00+00:00 [queued]>
+[2025-05-10T03:46:29.812+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_price_btc_price_by_day.save_to_db scheduled__2025-05-08T21:00:00+00:00 [queued]>
+[2025-05-10T03:46:29.813+0000] {taskinstance.py:2303} INFO - Starting attempt 3 of 3
+[2025-05-10T03:46:29.874+0000] {taskinstance.py:2327} INFO - Executing <Task(_PythonDecoratedOperator): save_to_db> on 2025-05-08 21:00:00+00:00
+[2025-05-10T03:46:29.889+0000] {warnings.py:110} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=94) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-10T03:46:29.891+0000] {standard_task_runner.py:63} INFO - Started process 99 to run task
+[2025-05-10T03:46:29.912+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'get_price_btc_price_by_day', 'save_to_db', 'scheduled__2025-05-08T21:00:00+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/get_price_btc_price_by_day.py', '--cfg-path', '/tmp/tmpg7mldxvr']
+[2025-05-10T03:46:29.916+0000] {standard_task_runner.py:91} INFO - Job 29: Subtask save_to_db
+[2025-05-10T03:46:30.173+0000] {task_command.py:426} INFO - Running <TaskInstance: get_price_btc_price_by_day.save_to_db scheduled__2025-05-08T21:00:00+00:00 [running]> on host 840719eb5226
+[2025-05-10T03:46:30.776+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='get_price_btc_price_by_day' AIRFLOW_CTX_TASK_ID='save_to_db' AIRFLOW_CTX_EXECUTION_DATE='2025-05-08T21:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-08T21:00:00+00:00'
+[2025-05-10T03:46:30.778+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-10T03:46:30.867+0000] {base.py:84} INFO - Using connection ID 'etl_db' for task execution.
+[2025-05-10T03:48:36.619+0000] {local_task_job_runner.py:310} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2025-05-10T03:48:36.621+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2025-05-10T03:48:36.626+0000] {process_utils.py:132} INFO - Sending 15 to group 99. PIDs of all processes in the group: [99]
+[2025-05-10T03:48:36.626+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 99
+[2025-05-10T03:48:40.147+0000] {taskinstance.py:2607} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-05-10T03:48:40.148+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-10T03:48:40.177+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "94.232.40.87", port 5432 failed: Connection timed out
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 265, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/get_price_btc_price_by_day.py", line 58, in save_to_db
+    get_price_btc_price_by_day = Table(
+                                 ^^^^^^
+  File "<string>", line 2, in __new__
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/deprecations.py", line 375, in warned
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/sql/schema.py", line 614, in __new__
+    table._init(name, metadata, *args, **kw)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/sql/schema.py", line 689, in _init
+    self._autoload(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/sql/schema.py", line 722, in _autoload
+    insp = inspection.inspect(autoload_with)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/inspection.py", line 64, in inspect
+    ret = reg(subject)
+          ^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/reflection.py", line 182, in _engine_insp
+    return Inspector._construct(Inspector._init_engine, bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/reflection.py", line 117, in _construct
+    init(self, bind)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/reflection.py", line 128, in _init_engine
+    engine.connect().close()
+    ^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 58, in __init__
+    def __init__(self, warn_only=False):
+    
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 2609, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2025-05-10T03:48:40.197+0000] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=get_price_btc_price_by_day, task_id=save_to_db, execution_date=20250508T210000, start_date=20250510T034629, end_date=20250510T034840
+[2025-05-10T03:48:40.263+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=99, status='terminated', exitcode=2, started='03:46:29') (99) terminated with exit code 2
+[2025-05-11T10:44:12.780+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-11T10:44:12.877+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_price_btc_price_by_day.save_to_db scheduled__2025-05-08T21:00:00+00:00 [queued]>
+[2025-05-11T10:44:12.911+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_price_btc_price_by_day.save_to_db scheduled__2025-05-08T21:00:00+00:00 [queued]>
+[2025-05-11T10:44:12.912+0000] {taskinstance.py:2303} INFO - Starting attempt 3 of 3
+[2025-05-11T10:44:12.962+0000] {taskinstance.py:2327} INFO - Executing <Task(_PythonDecoratedOperator): save_to_db> on 2025-05-08 21:00:00+00:00
+[2025-05-11T10:44:12.973+0000] {warnings.py:110} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=185) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-11T10:44:12.975+0000] {standard_task_runner.py:63} INFO - Started process 193 to run task
+[2025-05-11T10:44:12.979+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'get_price_btc_price_by_day', 'save_to_db', 'scheduled__2025-05-08T21:00:00+00:00', '--job-id', '78', '--raw', '--subdir', 'DAGS_FOLDER/get_price_btc_price_by_day.py', '--cfg-path', '/tmp/tmpx2uqyrj1']
+[2025-05-11T10:44:12.992+0000] {standard_task_runner.py:91} INFO - Job 78: Subtask save_to_db
+[2025-05-11T10:44:13.217+0000] {task_command.py:426} INFO - Running <TaskInstance: get_price_btc_price_by_day.save_to_db scheduled__2025-05-08T21:00:00+00:00 [running]> on host 840719eb5226
+[2025-05-11T10:44:13.563+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='get_price_btc_price_by_day' AIRFLOW_CTX_TASK_ID='save_to_db' AIRFLOW_CTX_EXECUTION_DATE='2025-05-08T21:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-08T21:00:00+00:00'
+[2025-05-11T10:44:13.565+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-11T10:44:13.619+0000] {base.py:84} INFO - Using connection ID 'etl_db' for task execution.
+[2025-05-11T10:44:13.792+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-11T10:44:13.793+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.InvalidDatetimeFormat: invalid input syntax for type timestamp: "data_interval_start"
+LINE 1: ...24h, bid_price, ask_price, open_interest) VALUES ('data_inte...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 265, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/get_price_btc_price_by_day.py", line 97, in save_to_db
+    connection.execute(stmt)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1385, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.DataError: (psycopg2.errors.InvalidDatetimeFormat) invalid input syntax for type timestamp: "data_interval_start"
+LINE 1: ...24h, bid_price, ask_price, open_interest) VALUES ('data_inte...
+                                                             ^
+
+[SQL: INSERT INTO etl.get_price_btc_price_by_day (data_interval_start, data_interval_end, last_price, volume_24h, high_price_24h, low_price_24h, bid_price, ask_price, open_interest) VALUES (%(data_interval_start)s, %(data_interval_end)s, %(last_price)s, %(volume_24h)s, %(high_price_24h)s, %(low_price_24h)s, %(bid_price)s, %(ask_price)s, %(open_interest)s) ON CONFLICT (data_interval_start) DO NOTHING]
+[parameters: {'data_interval_start': 'data_interval_start', 'data_interval_end': 'data_interval_end', 'last_price': 'last_price', 'volume_24h': 'volume_24h', 'high_price_24h': 'high_price_24h', 'low_price_24h': 'low_price_24h', 'bid_price': 'bid_price', 'ask_price': 'ask_price', 'open_interest': 'open_interest'}]
+(Background on this error at: https://sqlalche.me/e/14/9h9h)
+[2025-05-11T10:44:13.846+0000] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=get_price_btc_price_by_day, task_id=save_to_db, execution_date=20250508T210000, start_date=20250511T104412, end_date=20250511T104413
+[2025-05-11T10:44:13.875+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 78 for task save_to_db ((psycopg2.errors.InvalidDatetimeFormat) invalid input syntax for type timestamp: "data_interval_start"
+LINE 1: ...24h, bid_price, ask_price, open_interest) VALUES ('data_inte...
+                                                             ^
+
+[SQL: INSERT INTO etl.get_price_btc_price_by_day (data_interval_start, data_interval_end, last_price, volume_24h, high_price_24h, low_price_24h, bid_price, ask_price, open_interest) VALUES (%(data_interval_start)s, %(data_interval_end)s, %(last_price)s, %(volume_24h)s, %(high_price_24h)s, %(low_price_24h)s, %(bid_price)s, %(ask_price)s, %(open_interest)s) ON CONFLICT (data_interval_start) DO NOTHING]
+[parameters: {'data_interval_start': 'data_interval_start', 'data_interval_end': 'data_interval_end', 'last_price': 'last_price', 'volume_24h': 'volume_24h', 'high_price_24h': 'high_price_24h', 'low_price_24h': 'low_price_24h', 'bid_price': 'bid_price', 'ask_price': 'ask_price', 'open_interest': 'open_interest'}]
+(Background on this error at: https://sqlalche.me/e/14/9h9h); 193)
+[2025-05-11T10:44:13.885+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-05-11T10:44:13.962+0000] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-11T10:44:13.971+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

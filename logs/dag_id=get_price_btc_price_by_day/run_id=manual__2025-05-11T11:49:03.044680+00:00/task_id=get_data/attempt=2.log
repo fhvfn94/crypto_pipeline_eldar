@@ -1,0 +1,22 @@
+[2025-05-11T12:02:31.879+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-11T12:02:31.964+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: get_price_btc_price_by_day.get_data manual__2025-05-11T11:49:03.044680+00:00 [queued]>
+[2025-05-11T12:02:31.980+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: get_price_btc_price_by_day.get_data manual__2025-05-11T11:49:03.044680+00:00 [queued]>
+[2025-05-11T12:02:31.981+0000] {taskinstance.py:2303} INFO - Starting attempt 2 of 2
+[2025-05-11T12:02:32.014+0000] {taskinstance.py:2327} INFO - Executing <Task(_PythonDecoratedOperator): get_data> on 2025-05-11 11:49:03.044680+00:00
+[2025-05-11T12:02:32.028+0000] {warnings.py:110} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=84) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-11T12:02:32.043+0000] {standard_task_runner.py:63} INFO - Started process 89 to run task
+[2025-05-11T12:02:32.039+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'get_price_btc_price_by_day', 'get_data', 'manual__2025-05-11T11:49:03.044680+00:00', '--job-id', '108', '--raw', '--subdir', 'DAGS_FOLDER/get_price_btc_price_by_day.py', '--cfg-path', '/tmp/tmpcjhnl3oj']
+[2025-05-11T12:02:32.049+0000] {standard_task_runner.py:91} INFO - Job 108: Subtask get_data
+[2025-05-11T12:02:32.403+0000] {task_command.py:426} INFO - Running <TaskInstance: get_price_btc_price_by_day.get_data manual__2025-05-11T11:49:03.044680+00:00 [running]> on host 840719eb5226
+[2025-05-11T12:02:33.073+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='get_price_btc_price_by_day' AIRFLOW_CTX_TASK_ID='get_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-11T11:49:03.044680+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-11T11:49:03.044680+00:00'
+[2025-05-11T12:02:33.077+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-11T12:02:33.080+0000] {logging_mixin.py:188} INFO - Данные за период с 2025-05-09 21:00:00+00:00 по 2025-05-10 21:00:00+00:00
+[2025-05-11T12:02:33.533+0000] {logging_mixin.py:188} INFO - {'symbol': 'BTCUSDT', 'lastPrice': '104585.70', 'indexPrice': '104633.34', 'markPrice': '104585.70', 'prevPrice24h': '103493.40', 'price24hPcnt': '0.010554', 'highPrice24h': '104986.70', 'lowPrice24h': '102880.00', 'prevPrice1h': '104644.90', 'openInterest': '47721.66', 'openInterestValue': '4991003216.26', 'turnover24h': '6117579248.2473', 'volume24h': '58862.2570', 'fundingRate': '0.0001', 'nextFundingTime': '1746979200000', 'predictedDeliveryPrice': '', 'basisRate': '', 'deliveryFeeRate': '', 'deliveryTime': '0', 'ask1Size': '5.982', 'bid1Price': '104585.70', 'ask1Price': '104585.80', 'bid1Size': '5.762', 'basis': '', 'preOpenPrice': '', 'preQty': '', 'curPreListingPhase': ''}
+[2025-05-11T12:02:33.536+0000] {python.py:237} INFO - Done. Returned value was: {'data_interval_start': DateTime(2025, 5, 9, 21, 0, 0, tzinfo=Timezone('UTC')), 'data_interval_end': DateTime(2025, 5, 10, 21, 0, 0, tzinfo=Timezone('UTC')), 'last_price': 104585.7, 'volume_24h': 58862.257, 'high_price_24h': 104986.7, 'low_price_24h': 102880.0, 'bid_price': 104585.7, 'ask_price': 104585.8, 'open_interest': 47721.66}
+[2025-05-11T12:02:33.538+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-11T12:02:33.660+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=get_price_btc_price_by_day, task_id=get_data, execution_date=20250511T114903, start_date=20250511T120231, end_date=20250511T120233
+[2025-05-11T12:02:33.727+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-05-11T12:02:33.833+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-11T12:02:33.851+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
