@@ -1,0 +1,21 @@
+[2026-02-20T19:47:10.528+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-02-20T19:47:10.566+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tutorial_1_my_turn.calculate_sum manual__2026-02-20T19:47:03.459444+00:00 [queued]>
+[2026-02-20T19:47:10.577+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tutorial_1_my_turn.calculate_sum manual__2026-02-20T19:47:03.459444+00:00 [queued]>
+[2026-02-20T19:47:10.577+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2026-02-20T19:47:10.595+0000] {taskinstance.py:2327} INFO - Executing <Task(_PythonDecoratedOperator): calculate_sum> on 2026-02-20 19:47:03.459444+00:00
+[2026-02-20T19:47:10.605+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=59) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-02-20T19:47:10.608+0000] {standard_task_runner.py:63} INFO - Started process 60 to run task
+[2026-02-20T19:47:10.609+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'tutorial_1_my_turn', 'calculate_sum', 'manual__2026-02-20T19:47:03.459444+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/tutorial_1_my_turn.py', '--cfg-path', '/tmp/tmp0fn2l3ji']
+[2026-02-20T19:47:10.612+0000] {standard_task_runner.py:91} INFO - Job 11: Subtask calculate_sum
+[2026-02-20T19:47:10.688+0000] {task_command.py:426} INFO - Running <TaskInstance: tutorial_1_my_turn.calculate_sum manual__2026-02-20T19:47:03.459444+00:00 [running]> on host d40236af9776
+[2026-02-20T19:47:10.846+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tutorial_1_my_turn' AIRFLOW_CTX_TASK_ID='calculate_sum' AIRFLOW_CTX_EXECUTION_DATE='2026-02-20T19:47:03.459444+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-20T19:47:03.459444+00:00'
+[2026-02-20T19:47:10.847+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-02-20T19:47:10.848+0000] {logging_mixin.py:188} INFO - TRANSFORM: нахожу сумму чисел в списке [81, 48, 63, 36, 97, 86, 66, 84, 17, 7]
+[2026-02-20T19:47:10.849+0000] {python.py:237} INFO - Done. Returned value was: 585
+[2026-02-20T19:47:10.849+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-02-20T19:47:10.887+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=tutorial_1_my_turn, task_id=calculate_sum, execution_date=20260220T194703, start_date=20260220T194710, end_date=20260220T194710
+[2026-02-20T19:47:10.943+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-02-20T19:47:10.974+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-02-20T19:47:10.977+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

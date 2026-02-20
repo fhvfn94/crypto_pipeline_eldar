@@ -1,0 +1,21 @@
+[2026-02-20T19:47:04.637+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-02-20T19:47:04.680+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tutorial_1_my_turn.generate_numbers manual__2026-02-20T19:47:03.459444+00:00 [queued]>
+[2026-02-20T19:47:04.697+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tutorial_1_my_turn.generate_numbers manual__2026-02-20T19:47:03.459444+00:00 [queued]>
+[2026-02-20T19:47:04.698+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2026-02-20T19:47:04.720+0000] {taskinstance.py:2327} INFO - Executing <Task(_PythonDecoratedOperator): generate_numbers> on 2026-02-20 19:47:03.459444+00:00
+[2026-02-20T19:47:04.731+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=53) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-02-20T19:47:04.733+0000] {standard_task_runner.py:63} INFO - Started process 54 to run task
+[2026-02-20T19:47:04.733+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'tutorial_1_my_turn', 'generate_numbers', 'manual__2026-02-20T19:47:03.459444+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/tutorial_1_my_turn.py', '--cfg-path', '/tmp/tmpy0nik6vw']
+[2026-02-20T19:47:04.736+0000] {standard_task_runner.py:91} INFO - Job 8: Subtask generate_numbers
+[2026-02-20T19:47:04.828+0000] {task_command.py:426} INFO - Running <TaskInstance: tutorial_1_my_turn.generate_numbers manual__2026-02-20T19:47:03.459444+00:00 [running]> on host d40236af9776
+[2026-02-20T19:47:05.002+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tutorial_1_my_turn' AIRFLOW_CTX_TASK_ID='generate_numbers' AIRFLOW_CTX_EXECUTION_DATE='2026-02-20T19:47:03.459444+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-20T19:47:03.459444+00:00'
+[2026-02-20T19:47:05.004+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-02-20T19:47:05.005+0000] {logging_mixin.py:188} INFO - EXTRACT: получаю список из 10 случайных чисел от 1 до 100.
+[2026-02-20T19:47:05.008+0000] {python.py:237} INFO - Done. Returned value was: [81, 48, 63, 36, 97, 86, 66, 84, 17, 7]
+[2026-02-20T19:47:05.009+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-02-20T19:47:05.055+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=tutorial_1_my_turn, task_id=generate_numbers, execution_date=20260220T194703, start_date=20260220T194704, end_date=20260220T194705
+[2026-02-20T19:47:05.108+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-02-20T19:47:05.161+0000] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-02-20T19:47:05.164+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
