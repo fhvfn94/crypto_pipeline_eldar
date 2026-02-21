@@ -339,3 +339,339 @@
 [2026-02-20T19:55:35.700+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:55:35.699+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-02-20T19:55:35.740+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:55:35.740+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
 [2026-02-20T19:55:35.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.156 seconds
+[2026-02-20T19:56:08.778+0000] {processor.py:161} INFO - Started process (PID=1022) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:56:08.786+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T19:56:08.787+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:56:08.787+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:56:08.800+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:56:08.859+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:56:08.858+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T19:56:08.894+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:56:08.894+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T19:56:08.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.158 seconds
+[2026-02-20T19:56:40.824+0000] {processor.py:161} INFO - Started process (PID=1026) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:56:40.826+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T19:56:40.828+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:56:40.827+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:56:40.844+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:56:40.896+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:56:40.895+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T19:56:40.930+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:56:40.930+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T19:56:40.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.143 seconds
+[2026-02-20T19:57:11.356+0000] {processor.py:161} INFO - Started process (PID=1030) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:57:11.362+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T19:57:11.364+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:57:11.363+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:57:11.377+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:57:11.427+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:57:11.426+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T19:57:11.459+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:57:11.459+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T19:57:11.492+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.145 seconds
+[2026-02-20T19:57:41.717+0000] {processor.py:161} INFO - Started process (PID=1034) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:57:41.724+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T19:57:41.725+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:57:41.725+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:57:41.737+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:57:41.792+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:57:41.791+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T19:57:41.831+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:57:41.831+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T19:57:41.865+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.161 seconds
+[2026-02-20T19:58:12.128+0000] {processor.py:161} INFO - Started process (PID=1038) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:58:12.135+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T19:58:12.137+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:58:12.136+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:58:12.150+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:58:12.207+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:58:12.207+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T19:58:12.246+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:58:12.245+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T19:58:12.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.154 seconds
+[2026-02-20T19:58:42.342+0000] {processor.py:161} INFO - Started process (PID=1042) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:58:42.350+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T19:58:42.351+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:58:42.351+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:58:42.364+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:58:42.413+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:58:42.413+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T19:58:42.445+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:58:42.445+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T19:58:42.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.143 seconds
+[2026-02-20T19:59:12.891+0000] {processor.py:161} INFO - Started process (PID=1046) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:59:12.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T19:59:12.901+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:59:12.901+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:59:12.915+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:59:12.969+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:59:12.969+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T19:59:13.004+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:59:13.004+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T19:59:13.035+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.158 seconds
+[2026-02-20T19:59:43.758+0000] {processor.py:161} INFO - Started process (PID=1050) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:59:43.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T19:59:43.767+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:59:43.767+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:59:43.780+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T19:59:43.836+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:59:43.836+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T19:59:43.885+0000] {logging_mixin.py:188} INFO - [2026-02-20T19:59:43.884+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T19:59:43.919+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.169 seconds
+[2026-02-20T20:00:14.518+0000] {processor.py:161} INFO - Started process (PID=1054) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:00:14.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:00:14.524+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:00:14.523+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:00:14.547+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:00:14.767+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:00:14.766+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:00:14.872+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:00:14.871+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:00:14.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.443 seconds
+[2026-02-20T20:00:45.104+0000] {processor.py:161} INFO - Started process (PID=1058) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:00:45.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:00:45.126+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:00:45.125+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:00:45.147+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:00:45.229+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:00:45.228+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:00:45.276+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:00:45.275+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:00:45.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.212 seconds
+[2026-02-20T20:01:15.584+0000] {processor.py:161} INFO - Started process (PID=1062) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:01:15.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:01:15.589+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:01:15.588+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:01:15.606+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:01:15.664+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:01:15.664+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:01:15.710+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:01:15.709+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:01:15.779+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.208 seconds
+[2026-02-20T20:01:46.261+0000] {processor.py:161} INFO - Started process (PID=1066) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:01:46.262+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:01:46.264+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:01:46.263+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:01:46.276+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:01:46.330+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:01:46.330+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:01:46.361+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:01:46.360+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:01:46.382+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.131 seconds
+[2026-02-20T20:02:16.696+0000] {processor.py:161} INFO - Started process (PID=1070) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:02:16.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:02:16.699+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:02:16.698+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:02:16.711+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:02:16.761+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:02:16.760+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:02:16.794+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:02:16.794+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:02:16.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.130 seconds
+[2026-02-20T20:02:46.923+0000] {processor.py:161} INFO - Started process (PID=1074) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:02:46.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:02:46.926+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:02:46.926+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:02:46.942+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:02:46.994+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:02:46.993+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:02:47.032+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:02:47.032+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:02:47.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.149 seconds
+[2026-02-20T20:03:17.252+0000] {processor.py:161} INFO - Started process (PID=1078) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:03:17.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:03:17.263+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:03:17.261+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:03:17.275+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:03:17.326+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:03:17.326+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:03:17.361+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:03:17.360+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:03:17.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.144 seconds
+[2026-02-20T20:03:47.548+0000] {processor.py:161} INFO - Started process (PID=1082) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:03:47.550+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:03:47.551+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:03:47.550+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:03:47.565+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:03:47.616+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:03:47.615+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:03:47.648+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:03:47.648+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:03:47.679+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.139 seconds
+[2026-02-20T20:04:18.582+0000] {processor.py:161} INFO - Started process (PID=1086) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:04:18.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:04:18.590+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:04:18.590+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:04:18.601+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:04:18.647+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:04:18.647+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:04:18.681+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:04:18.680+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:04:18.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.142 seconds
+[2026-02-20T20:04:50.899+0000] {processor.py:161} INFO - Started process (PID=1090) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:04:50.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:04:50.901+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:04:50.901+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:04:50.913+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:04:50.970+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:04:50.970+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:04:51.007+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:04:51.006+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:04:51.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.148 seconds
+[2026-02-20T20:05:24.037+0000] {processor.py:161} INFO - Started process (PID=1094) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:05:24.045+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:05:24.046+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:05:24.046+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:05:24.058+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:05:24.112+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:05:24.111+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:05:24.148+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:05:24.148+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:05:24.177+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.150 seconds
+[2026-02-20T20:05:56.295+0000] {processor.py:161} INFO - Started process (PID=1098) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:05:56.296+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:05:56.298+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:05:56.297+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:05:56.310+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:05:56.366+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:05:56.366+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:05:56.401+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:05:56.401+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:05:56.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.144 seconds
+[2026-02-20T20:06:28.692+0000] {processor.py:161} INFO - Started process (PID=1102) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:06:28.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:06:28.696+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:06:28.695+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:06:28.709+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:06:28.759+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:06:28.758+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:06:28.791+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:06:28.790+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:06:28.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.136 seconds
+[2026-02-20T20:07:00.160+0000] {processor.py:161} INFO - Started process (PID=1106) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:07:00.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:07:00.163+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:07:00.163+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:07:00.179+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:07:00.241+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:07:00.241+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:07:00.274+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:07:00.273+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:07:00.301+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.151 seconds
+[2026-02-20T20:07:33.314+0000] {processor.py:161} INFO - Started process (PID=1110) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:07:33.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:07:33.317+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:07:33.317+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:07:33.336+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:07:33.406+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:07:33.406+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:07:33.490+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:07:33.490+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:07:33.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.239 seconds
+[2026-02-20T20:08:06.528+0000] {processor.py:161} INFO - Started process (PID=1114) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:08:06.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:08:06.532+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:08:06.531+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:08:06.544+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:08:06.595+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:08:06.594+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:08:06.636+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:08:06.636+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:08:06.661+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.141 seconds
+[2026-02-20T20:08:38.658+0000] {processor.py:161} INFO - Started process (PID=1118) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:08:38.660+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:08:38.661+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:08:38.660+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:08:38.676+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:08:38.724+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:08:38.723+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:08:38.753+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:08:38.752+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:08:38.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.129 seconds
+[2026-02-20T20:09:11.787+0000] {processor.py:161} INFO - Started process (PID=1122) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:09:11.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:09:11.791+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:09:11.790+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:09:11.803+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:09:11.859+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:09:11.859+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:09:11.897+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:09:11.897+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:09:11.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.154 seconds
+[2026-02-20T20:09:42.401+0000] {processor.py:161} INFO - Started process (PID=1126) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:09:42.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:09:42.404+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:09:42.403+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:09:42.420+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:09:42.468+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:09:42.468+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:09:42.501+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:09:42.501+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:09:42.534+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.142 seconds
+[2026-02-20T20:10:15.501+0000] {processor.py:161} INFO - Started process (PID=1133) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:10:15.503+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:10:15.505+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:10:15.504+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:10:15.521+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:10:15.579+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:10:15.579+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:10:15.617+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:10:15.617+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:10:15.655+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.164 seconds
+[2026-02-20T20:10:46.355+0000] {processor.py:161} INFO - Started process (PID=1142) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:10:46.363+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:10:46.365+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:10:46.364+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:10:46.390+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:10:46.439+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:10:46.439+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:10:46.470+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:10:46.470+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:10:46.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.156 seconds
+[2026-02-20T20:11:16.706+0000] {processor.py:161} INFO - Started process (PID=1147) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:11:16.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:11:16.711+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:11:16.710+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:11:16.727+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:11:16.790+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:11:16.789+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:11:16.823+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:11:16.822+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:11:16.856+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.163 seconds
+[2026-02-20T20:11:47.665+0000] {processor.py:161} INFO - Started process (PID=1152) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:11:47.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:11:47.673+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:11:47.673+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:11:47.685+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:11:47.735+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:11:47.734+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:11:47.767+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:11:47.766+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:11:47.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.133 seconds
+[2026-02-20T20:12:17.942+0000] {processor.py:161} INFO - Started process (PID=1157) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:12:17.944+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:12:17.945+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:12:17.944+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:12:17.960+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:12:18.022+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:12:18.018+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:12:18.052+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:12:18.052+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:12:18.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.149 seconds
+[2026-02-20T20:12:49.023+0000] {processor.py:161} INFO - Started process (PID=1162) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:12:49.026+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:12:49.027+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:12:49.027+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:12:49.042+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:12:49.098+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:12:49.098+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:12:49.134+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:12:49.134+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:12:49.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.153 seconds
+[2026-02-20T20:13:19.718+0000] {processor.py:161} INFO - Started process (PID=1167) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:13:19.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:13:19.721+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:13:19.720+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:13:19.736+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:13:19.789+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:13:19.789+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:13:19.824+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:13:19.824+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:13:19.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.155 seconds
+[2026-02-20T20:13:50.192+0000] {processor.py:161} INFO - Started process (PID=1172) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:13:50.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:13:50.197+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:13:50.196+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:13:50.212+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:13:50.272+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:13:50.271+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:13:50.310+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:13:50.310+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:13:50.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.158 seconds
+[2026-02-20T20:14:20.627+0000] {processor.py:161} INFO - Started process (PID=1177) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:14:20.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:14:20.632+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:14:20.631+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:14:20.645+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:14:20.709+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:14:20.708+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:14:20.740+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:14:20.740+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:14:20.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.146 seconds
+[2026-02-20T20:14:51.773+0000] {processor.py:161} INFO - Started process (PID=1182) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:14:51.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:14:51.783+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:14:51.782+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:14:51.798+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:14:51.854+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:14:51.854+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:14:51.893+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:14:51.892+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:14:51.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.163 seconds
+[2026-02-20T20:15:22.452+0000] {processor.py:161} INFO - Started process (PID=1187) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:15:22.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:15:22.455+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:15:22.454+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:15:22.467+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:15:22.520+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:15:22.520+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:15:22.554+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:15:22.554+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:15:22.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.143 seconds
+[2026-02-20T20:15:53.214+0000] {processor.py:161} INFO - Started process (PID=1192) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:15:53.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:15:53.218+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:15:53.218+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:15:53.232+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:15:53.301+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:15:53.301+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:15:53.339+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:15:53.338+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:15:53.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.169 seconds
+[2026-02-20T20:16:23.437+0000] {processor.py:161} INFO - Started process (PID=1197) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:16:23.439+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:16:23.441+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:16:23.440+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:16:23.457+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:16:23.515+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:16:23.514+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:16:23.557+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:16:23.557+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:16:23.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.169 seconds
+[2026-02-20T20:16:54.270+0000] {processor.py:161} INFO - Started process (PID=1202) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:16:54.278+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:16:54.280+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:16:54.279+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:16:54.293+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:16:54.348+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:16:54.347+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:16:54.389+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:16:54.389+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:16:54.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.164 seconds
+[2026-02-20T20:17:24.504+0000] {processor.py:161} INFO - Started process (PID=1207) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:17:24.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T20:17:24.507+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:17:24.506+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:17:24.522+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T20:17:24.583+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:17:24.582+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T20:17:24.621+0000] {logging_mixin.py:188} INFO - [2026-02-20T20:17:24.620+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T20:17:24.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.159 seconds
+[2026-02-20T21:31:16.220+0000] {processor.py:161} INFO - Started process (PID=1213) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T21:31:16.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T21:31:16.227+0000] {logging_mixin.py:188} INFO - [2026-02-20T21:31:16.226+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T21:31:16.283+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T21:31:16.403+0000] {logging_mixin.py:188} INFO - [2026-02-20T21:31:16.403+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T21:31:16.566+0000] {logging_mixin.py:188} INFO - [2026-02-20T21:31:16.563+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T21:31:16.864+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.826 seconds
+[2026-02-20T21:31:47.349+0000] {processor.py:161} INFO - Started process (PID=1217) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T21:31:47.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T21:31:47.354+0000] {logging_mixin.py:188} INFO - [2026-02-20T21:31:47.353+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T21:31:47.383+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T21:31:47.442+0000] {logging_mixin.py:188} INFO - [2026-02-20T21:31:47.442+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T21:31:47.474+0000] {logging_mixin.py:188} INFO - [2026-02-20T21:31:47.473+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T21:31:47.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.171 seconds
+[2026-02-20T21:32:18.268+0000] {processor.py:161} INFO - Started process (PID=1224) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T21:32:18.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T21:32:18.271+0000] {logging_mixin.py:188} INFO - [2026-02-20T21:32:18.271+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T21:32:18.283+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T21:32:18.330+0000] {logging_mixin.py:188} INFO - [2026-02-20T21:32:18.329+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T21:32:18.359+0000] {logging_mixin.py:188} INFO - [2026-02-20T21:32:18.359+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T21:32:18.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.124 seconds
+[2026-02-20T21:32:48.747+0000] {processor.py:161} INFO - Started process (PID=1229) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T21:32:48.749+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T21:32:48.750+0000] {logging_mixin.py:188} INFO - [2026-02-20T21:32:48.749+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T21:32:48.763+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T21:32:48.816+0000] {logging_mixin.py:188} INFO - [2026-02-20T21:32:48.815+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T21:32:48.845+0000] {logging_mixin.py:188} INFO - [2026-02-20T21:32:48.845+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T21:32:48.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.134 seconds
+[2026-02-20T21:33:19.199+0000] {processor.py:161} INFO - Started process (PID=1234) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T21:33:19.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T21:33:19.202+0000] {logging_mixin.py:188} INFO - [2026-02-20T21:33:19.201+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T21:33:19.215+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T21:33:19.266+0000] {logging_mixin.py:188} INFO - [2026-02-20T21:33:19.265+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T21:33:19.298+0000] {logging_mixin.py:188} INFO - [2026-02-20T21:33:19.298+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T21:33:19.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.133 seconds
+[2026-02-20T21:33:49.405+0000] {processor.py:161} INFO - Started process (PID=1239) to work on /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T21:33:49.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_1_my_turn.py for tasks to queue
+[2026-02-20T21:33:49.409+0000] {logging_mixin.py:188} INFO - [2026-02-20T21:33:49.408+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T21:33:49.430+0000] {processor.py:840} INFO - DAG(s) 'tutorial_1_my_turn' retrieved from /opt/airflow/dags/tutorial_1_my_turn.py
+[2026-02-20T21:33:49.502+0000] {logging_mixin.py:188} INFO - [2026-02-20T21:33:49.501+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-20T21:33:49.545+0000] {logging_mixin.py:188} INFO - [2026-02-20T21:33:49.544+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_1_my_turn to 2026-02-19 21:00:00+00:00, run_after=2026-02-20 21:00:00+00:00
+[2026-02-20T21:33:49.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_1_my_turn.py took 0.187 seconds
