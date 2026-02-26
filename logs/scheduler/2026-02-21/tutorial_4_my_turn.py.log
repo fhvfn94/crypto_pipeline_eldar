@@ -1,0 +1,517 @@
+[2026-02-21T12:03:22.701+0000] {processor.py:161} INFO - Started process (PID=2005) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:03:22.702+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:03:22.703+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:03:22.703+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:03:22.715+0000] {processor.py:840} INFO - DAG(s) 'tutorial_4_my_turn' retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:03:22.956+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:03:22.954+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:tutorial_4_my_turn
+[2026-02-21T12:03:22.969+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:03:22.969+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:tutorial_4_my_turn
+[2026-02-21T12:03:22.978+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:03:22.978+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:tutorial_4_my_turn
+[2026-02-21T12:03:22.979+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:03:22.979+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-21T12:03:22.995+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:03:22.995+0000] {dag.py:3118} INFO - Creating ORM DAG for tutorial_4_my_turn
+[2026-02-21T12:03:22.996+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:03:22.996+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_4_my_turn to None, run_after=None
+[2026-02-21T12:03:23.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.331 seconds
+[2026-02-21T12:03:53.348+0000] {processor.py:161} INFO - Started process (PID=2012) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:03:53.349+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:03:53.350+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:03:53.350+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:03:53.363+0000] {processor.py:840} INFO - DAG(s) 'tutorial_4_my_turn' retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:03:53.412+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:03:53.411+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-21T12:03:53.432+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:03:53.431+0000] {dag.py:3954} INFO - Setting next_dagrun for tutorial_4_my_turn to None, run_after=None
+[2026-02-21T12:03:53.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.122 seconds
+[2026-02-21T12:04:02.765+0000] {processor.py:161} INFO - Started process (PID=2018) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:04:02.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:04:02.768+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:04:02.767+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:04:02.770+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:04:02.769+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/tutorial_4_my_turn.py assumed to contain no DAGs. Skipping.
+[2026-02-21T12:04:02.770+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:04:02.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.041 seconds
+[2026-02-21T12:04:12.841+0000] {processor.py:161} INFO - Started process (PID=2019) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:04:12.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:04:12.850+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:04:12.850+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:04:12.852+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:04:12.852+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/tutorial_4_my_turn.py assumed to contain no DAGs. Skipping.
+[2026-02-21T12:04:12.853+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:04:12.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.045 seconds
+[2026-02-21T12:04:25.043+0000] {processor.py:161} INFO - Started process (PID=2021) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:04:25.044+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:04:25.046+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:04:25.045+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:04:25.048+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:04:25.048+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/tutorial_4_my_turn.py assumed to contain no DAGs. Skipping.
+[2026-02-21T12:04:25.048+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:04:25.076+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.044 seconds
+[2026-02-21T12:04:55.796+0000] {processor.py:161} INFO - Started process (PID=2028) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:04:55.804+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:04:55.805+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:04:55.805+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:04:55.807+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:04:55.807+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/tutorial_4_my_turn.py assumed to contain no DAGs. Skipping.
+[2026-02-21T12:04:55.808+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:04:55.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.048 seconds
+[2026-02-21T12:04:57.853+0000] {processor.py:161} INFO - Started process (PID=2029) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:04:57.854+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:04:57.855+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:04:57.855+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:04:57.857+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:04:57.857+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/tutorial_4_my_turn.py assumed to contain no DAGs. Skipping.
+[2026-02-21T12:04:57.858+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:04:57.886+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.044 seconds
+[2026-02-21T12:05:28.507+0000] {processor.py:161} INFO - Started process (PID=2036) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:05:28.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:05:28.510+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:05:28.509+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:05:28.512+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:05:28.512+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/tutorial_4_my_turn.py assumed to contain no DAGs. Skipping.
+[2026-02-21T12:05:28.512+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:05:28.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.038 seconds
+[2026-02-21T12:05:59.332+0000] {processor.py:161} INFO - Started process (PID=2043) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:05:59.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:05:59.336+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:05:59.335+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:05:59.339+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:05:59.338+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/tutorial_4_my_turn.py assumed to contain no DAGs. Skipping.
+[2026-02-21T12:05:59.339+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:05:59.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.052 seconds
+[2026-02-21T12:06:29.835+0000] {processor.py:161} INFO - Started process (PID=2050) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:06:29.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:06:29.838+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:06:29.837+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:06:29.841+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:06:29.840+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/tutorial_4_my_turn.py assumed to contain no DAGs. Skipping.
+[2026-02-21T12:06:29.841+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:06:29.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.047 seconds
+[2026-02-21T12:07:00.642+0000] {processor.py:161} INFO - Started process (PID=2057) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:07:00.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:07:00.647+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:07:00.646+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:07:00.650+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:07:00.649+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/tutorial_4_my_turn.py assumed to contain no DAGs. Skipping.
+[2026-02-21T12:07:00.650+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:07:00.686+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.064 seconds
+[2026-02-21T12:07:31.460+0000] {processor.py:161} INFO - Started process (PID=2064) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:07:31.461+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:07:31.463+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:07:31.462+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:07:31.465+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:07:31.464+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/tutorial_4_my_turn.py assumed to contain no DAGs. Skipping.
+[2026-02-21T12:07:31.465+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:07:31.496+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.046 seconds
+[2026-02-21T12:08:02.171+0000] {processor.py:161} INFO - Started process (PID=2071) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:08:02.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:08:02.181+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:08:02.175+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:08:02.183+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:08:02.183+0000] {dagbag.py:329} INFO - File /opt/airflow/dags/tutorial_4_my_turn.py assumed to contain no DAGs. Skipping.
+[2026-02-21T12:08:02.184+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:08:02.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.071 seconds
+[2026-02-21T12:13:23.269+0000] {processor.py:161} INFO - Started process (PID=2137) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:13:23.294+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:13:23.295+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:13:23.295+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:13:23.303+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:13:23.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.072 seconds
+[2026-02-21T12:13:53.952+0000] {processor.py:161} INFO - Started process (PID=2144) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:13:53.953+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:13:53.955+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:13:53.954+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:13:53.960+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:13:53.990+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.048 seconds
+[2026-02-21T12:14:24.611+0000] {processor.py:161} INFO - Started process (PID=2151) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:14:24.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:14:24.620+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:14:24.619+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:14:24.625+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:14:24.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.052 seconds
+[2026-02-21T12:14:55.263+0000] {processor.py:161} INFO - Started process (PID=2158) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:14:55.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:14:55.266+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:14:55.265+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:14:55.273+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:14:55.307+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.057 seconds
+[2026-02-21T12:15:25.853+0000] {processor.py:161} INFO - Started process (PID=2165) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:15:25.862+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:15:25.863+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:15:25.863+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:15:25.869+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:15:25.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.057 seconds
+[2026-02-21T12:15:56.575+0000] {processor.py:161} INFO - Started process (PID=2172) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:15:56.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:15:56.578+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:15:56.578+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:15:56.584+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:15:56.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.050 seconds
+[2026-02-21T12:16:27.185+0000] {processor.py:161} INFO - Started process (PID=2179) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:16:27.194+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:16:27.196+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:16:27.195+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:16:27.202+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:16:27.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.059 seconds
+[2026-02-21T12:16:57.829+0000] {processor.py:161} INFO - Started process (PID=2186) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:16:57.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:16:57.833+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:16:57.832+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:16:57.838+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:16:57.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.050 seconds
+[2026-02-21T12:27:34.725+0000] {processor.py:161} INFO - Started process (PID=2188) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:27:34.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:27:34.748+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:27:34.742+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:27:34.771+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:27:35.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.759 seconds
+[2026-02-21T12:28:05.922+0000] {processor.py:161} INFO - Started process (PID=2195) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:28:05.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:28:05.933+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:28:05.932+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:28:05.940+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:28:05.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.071 seconds
+[2026-02-21T12:28:36.620+0000] {processor.py:161} INFO - Started process (PID=2202) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:28:36.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:28:36.630+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:28:36.630+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:28:36.636+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:28:36.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.069 seconds
+[2026-02-21T12:29:07.408+0000] {processor.py:161} INFO - Started process (PID=2209) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:29:07.417+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:29:07.420+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:29:07.419+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:29:07.425+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:29:07.453+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.056 seconds
+[2026-02-21T12:29:38.134+0000] {processor.py:161} INFO - Started process (PID=2216) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:29:38.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:29:38.138+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:29:38.138+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:29:38.146+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:29:38.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.060 seconds
+[2026-02-21T12:30:08.905+0000] {processor.py:161} INFO - Started process (PID=2223) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:30:08.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:30:08.909+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:30:08.909+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:30:08.915+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:30:08.946+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.053 seconds
+[2026-02-21T12:30:39.729+0000] {processor.py:161} INFO - Started process (PID=2230) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:30:39.737+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:30:39.738+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:30:39.738+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:30:39.745+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:30:39.775+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.057 seconds
+[2026-02-21T12:31:10.489+0000] {processor.py:161} INFO - Started process (PID=2237) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:31:10.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:31:10.500+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:31:10.499+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:31:10.504+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:31:10.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.055 seconds
+[2026-02-21T12:31:41.247+0000] {processor.py:161} INFO - Started process (PID=2244) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:31:41.248+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:31:41.250+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:31:41.249+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:31:41.255+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:31:41.283+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.046 seconds
+[2026-02-21T12:57:23.067+0000] {processor.py:161} INFO - Started process (PID=2253) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:57:23.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:57:23.073+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:57:23.072+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:57:23.080+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:57:23.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.095 seconds
+[2026-02-21T12:57:53.834+0000] {processor.py:161} INFO - Started process (PID=2260) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:57:53.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:57:53.839+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:57:53.838+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:57:53.847+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:57:53.888+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.069 seconds
+[2026-02-21T12:58:24.803+0000] {processor.py:161} INFO - Started process (PID=2269) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:58:24.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:58:24.807+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:58:24.806+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:58:24.813+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:58:24.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.058 seconds
+[2026-02-21T12:58:55.622+0000] {processor.py:161} INFO - Started process (PID=2276) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:58:55.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:58:55.632+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:58:55.631+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:58:55.637+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:58:55.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.052 seconds
+[2026-02-21T12:59:26.311+0000] {processor.py:161} INFO - Started process (PID=2283) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:59:26.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:59:26.321+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:59:26.320+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:59:26.325+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:59:26.358+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.056 seconds
+[2026-02-21T12:59:57.069+0000] {processor.py:161} INFO - Started process (PID=2290) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:59:57.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T12:59:57.079+0000] {logging_mixin.py:188} INFO - [2026-02-21T12:59:57.078+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:59:57.085+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T12:59:57.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.060 seconds
+[2026-02-21T13:00:27.750+0000] {processor.py:161} INFO - Started process (PID=2297) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:00:27.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T13:00:27.754+0000] {logging_mixin.py:188} INFO - [2026-02-21T13:00:27.753+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:00:27.758+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:00:27.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.047 seconds
+[2026-02-21T13:00:58.404+0000] {processor.py:161} INFO - Started process (PID=2304) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:00:58.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T13:00:58.414+0000] {logging_mixin.py:188} INFO - [2026-02-21T13:00:58.414+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:00:58.420+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:00:58.449+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.056 seconds
+[2026-02-21T13:01:29.089+0000] {processor.py:161} INFO - Started process (PID=2311) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:01:29.092+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T13:01:29.093+0000] {logging_mixin.py:188} INFO - [2026-02-21T13:01:29.093+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:01:29.098+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:01:29.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.049 seconds
+[2026-02-21T13:52:33.692+0000] {processor.py:161} INFO - Started process (PID=2316) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:52:33.703+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T13:52:33.704+0000] {logging_mixin.py:188} INFO - [2026-02-21T13:52:33.704+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:52:33.722+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:52:33.809+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.216 seconds
+[2026-02-21T13:53:04.176+0000] {processor.py:161} INFO - Started process (PID=2323) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:53:04.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T13:53:04.183+0000] {logging_mixin.py:188} INFO - [2026-02-21T13:53:04.182+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:53:04.194+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:53:04.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.079 seconds
+[2026-02-21T13:53:34.318+0000] {processor.py:161} INFO - Started process (PID=2330) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:53:34.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T13:53:34.322+0000] {logging_mixin.py:188} INFO - [2026-02-21T13:53:34.321+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:53:34.329+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:53:34.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.068 seconds
+[2026-02-21T13:54:04.737+0000] {processor.py:161} INFO - Started process (PID=2338) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:54:04.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T13:54:04.748+0000] {logging_mixin.py:188} INFO - [2026-02-21T13:54:04.747+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:54:04.754+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:54:04.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.068 seconds
+[2026-02-21T13:54:35.533+0000] {processor.py:161} INFO - Started process (PID=2345) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:54:35.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T13:54:35.545+0000] {logging_mixin.py:188} INFO - [2026-02-21T13:54:35.544+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:54:35.560+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:54:35.603+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.082 seconds
+[2026-02-21T13:55:06.521+0000] {processor.py:161} INFO - Started process (PID=2352) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:55:06.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T13:55:06.545+0000] {logging_mixin.py:188} INFO - [2026-02-21T13:55:06.544+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:55:06.552+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:55:06.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.092 seconds
+[2026-02-21T13:55:36.900+0000] {processor.py:161} INFO - Started process (PID=2359) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:55:36.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T13:55:36.905+0000] {logging_mixin.py:188} INFO - [2026-02-21T13:55:36.904+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:55:36.914+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:55:36.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.081 seconds
+[2026-02-21T13:56:07.340+0000] {processor.py:161} INFO - Started process (PID=2366) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:56:07.349+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T13:56:07.352+0000] {logging_mixin.py:188} INFO - [2026-02-21T13:56:07.351+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:56:07.365+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:56:07.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.083 seconds
+[2026-02-21T13:56:38.061+0000] {processor.py:161} INFO - Started process (PID=2372) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:56:38.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T13:56:38.074+0000] {logging_mixin.py:188} INFO - [2026-02-21T13:56:38.072+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:56:38.083+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:56:38.124+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.081 seconds
+[2026-02-21T13:57:08.918+0000] {processor.py:161} INFO - Started process (PID=2379) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:57:08.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T13:57:08.928+0000] {logging_mixin.py:188} INFO - [2026-02-21T13:57:08.927+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:57:08.936+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:57:08.998+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.093 seconds
+[2026-02-21T13:57:39.823+0000] {processor.py:161} INFO - Started process (PID=2386) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:57:39.826+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T13:57:39.828+0000] {logging_mixin.py:188} INFO - [2026-02-21T13:57:39.827+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:57:39.835+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T13:57:39.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.081 seconds
+[2026-02-21T14:01:46.537+0000] {processor.py:161} INFO - Started process (PID=2393) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:01:46.551+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:01:46.553+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:01:46.552+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:01:46.603+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:01:46.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.158 seconds
+[2026-02-21T14:02:13.957+0000] {processor.py:161} INFO - Started process (PID=2400) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:02:13.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:02:13.959+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:02:13.959+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:02:13.962+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:02:13.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.027 seconds
+[2026-02-21T14:02:44.835+0000] {processor.py:161} INFO - Started process (PID=2407) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:02:44.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:02:44.838+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:02:44.838+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:02:44.842+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:02:44.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.034 seconds
+[2026-02-21T14:03:15.347+0000] {processor.py:161} INFO - Started process (PID=2414) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:03:15.350+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:03:15.351+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:03:15.351+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:03:15.354+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:03:15.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.030 seconds
+[2026-02-21T14:03:45.895+0000] {processor.py:161} INFO - Started process (PID=2421) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:03:45.896+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:03:45.897+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:03:45.897+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:03:45.900+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:03:45.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.026 seconds
+[2026-02-21T14:04:16.445+0000] {processor.py:161} INFO - Started process (PID=2428) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:04:16.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:04:16.447+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:04:16.447+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:04:16.451+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:04:16.468+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.029 seconds
+[2026-02-21T14:16:25.435+0000] {processor.py:161} INFO - Started process (PID=39) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:16:25.436+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:16:25.438+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:16:25.438+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:16:25.444+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:16:25.466+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.039 seconds
+[2026-02-21T14:16:55.631+0000] {processor.py:161} INFO - Started process (PID=46) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:16:55.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:16:55.636+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:16:55.635+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:16:55.644+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:16:55.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.055 seconds
+[2026-02-21T14:17:25.936+0000] {processor.py:161} INFO - Started process (PID=53) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:17:25.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:17:25.941+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:17:25.940+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:17:25.946+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:17:25.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.055 seconds
+[2026-02-21T14:17:56.313+0000] {processor.py:161} INFO - Started process (PID=60) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:17:56.315+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:17:56.317+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:17:56.316+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:17:56.321+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:17:56.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.033 seconds
+[2026-02-21T14:18:26.461+0000] {processor.py:161} INFO - Started process (PID=67) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:18:26.462+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:18:26.464+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:18:26.464+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:18:26.467+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:18:26.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.032 seconds
+[2026-02-21T14:18:56.720+0000] {processor.py:161} INFO - Started process (PID=74) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:18:56.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:18:56.723+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:18:56.723+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:18:56.728+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:18:56.745+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.030 seconds
+[2026-02-21T14:19:26.899+0000] {processor.py:161} INFO - Started process (PID=81) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:19:26.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:19:26.909+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:19:26.908+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:19:26.911+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:19:26.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.032 seconds
+[2026-02-21T14:19:57.160+0000] {processor.py:161} INFO - Started process (PID=88) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:19:57.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:19:57.165+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:19:57.164+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:19:57.170+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:19:57.196+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.042 seconds
+[2026-02-21T14:20:27.378+0000] {processor.py:161} INFO - Started process (PID=95) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:20:27.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:20:27.381+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:20:27.381+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:20:27.384+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:20:27.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.025 seconds
+[2026-02-21T14:20:58.351+0000] {processor.py:161} INFO - Started process (PID=102) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:20:58.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:20:58.353+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:20:58.353+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:20:58.356+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:20:58.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.024 seconds
+[2026-02-21T14:21:30.469+0000] {processor.py:161} INFO - Started process (PID=109) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:21:30.469+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:21:30.471+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:21:30.471+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:21:30.473+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:21:30.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.023 seconds
+[2026-02-21T14:22:03.617+0000] {processor.py:161} INFO - Started process (PID=116) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:22:03.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:22:03.620+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:22:03.620+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:22:03.623+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:22:03.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.028 seconds
+[2026-02-21T14:22:35.694+0000] {processor.py:161} INFO - Started process (PID=123) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:22:35.696+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:22:35.698+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:22:35.698+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:22:35.701+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:22:35.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.025 seconds
+[2026-02-21T14:23:08.676+0000] {processor.py:161} INFO - Started process (PID=130) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:23:08.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:23:08.678+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:23:08.678+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:23:08.681+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:23:08.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.025 seconds
+[2026-02-21T14:23:41.733+0000] {processor.py:161} INFO - Started process (PID=137) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:23:41.734+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:23:41.736+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:23:41.735+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:23:41.738+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:23:41.753+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.025 seconds
+[2026-02-21T14:24:14.091+0000] {processor.py:161} INFO - Started process (PID=144) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:24:14.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:24:14.095+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:24:14.095+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:24:14.098+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:24:14.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.031 seconds
+[2026-02-21T14:24:45.676+0000] {processor.py:161} INFO - Started process (PID=151) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:24:45.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:24:45.678+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:24:45.678+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:24:45.681+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:24:45.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.026 seconds
+[2026-02-21T14:25:16.644+0000] {processor.py:161} INFO - Started process (PID=158) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:25:16.647+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:25:16.649+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:25:16.649+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:25:16.652+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:25:16.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.029 seconds
+[2026-02-21T14:25:47.633+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:25:47.634+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:25:47.636+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:25:47.635+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:25:47.639+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:25:47.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.029 seconds
+[2026-02-21T14:26:18.180+0000] {processor.py:161} INFO - Started process (PID=172) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:26:18.183+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:26:18.185+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:26:18.184+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:26:18.188+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:26:18.203+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.028 seconds
+[2026-02-21T14:26:48.972+0000] {processor.py:161} INFO - Started process (PID=179) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:26:48.973+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:26:48.976+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:26:48.975+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:26:48.982+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:26:49.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.037 seconds
+[2026-02-21T14:27:19.362+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:27:19.364+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:27:19.365+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:27:19.365+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:27:19.368+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:27:19.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.026 seconds
+[2026-02-21T14:27:49.744+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:27:49.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:27:49.746+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:27:49.746+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:27:49.749+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:27:49.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.025 seconds
+[2026-02-21T14:28:20.142+0000] {processor.py:161} INFO - Started process (PID=200) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:28:20.144+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:28:20.146+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:28:20.145+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:28:20.148+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:28:20.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.029 seconds
+[2026-02-21T14:28:50.674+0000] {processor.py:161} INFO - Started process (PID=207) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:28:50.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:28:50.680+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:28:50.680+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:28:50.684+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:28:50.705+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.036 seconds
+[2026-02-21T14:29:21.372+0000] {processor.py:161} INFO - Started process (PID=214) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:29:21.373+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:29:21.375+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:29:21.375+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:29:21.379+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:29:21.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.032 seconds
+[2026-02-21T14:29:52.190+0000] {processor.py:161} INFO - Started process (PID=221) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:29:52.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:29:52.194+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:29:52.194+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:29:52.197+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:29:52.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.028 seconds
+[2026-02-21T14:30:22.598+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:30:22.599+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:30:22.601+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:30:22.600+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:30:22.603+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:30:22.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.026 seconds
+[2026-02-21T14:30:53.248+0000] {processor.py:161} INFO - Started process (PID=235) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:30:53.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:30:53.281+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:30:53.278+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:30:53.351+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:30:53.687+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.534 seconds
+[2026-02-21T14:31:24.231+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:31:24.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:31:24.234+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:31:24.234+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:31:24.237+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:31:24.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.025 seconds
+[2026-02-21T14:31:54.737+0000] {processor.py:161} INFO - Started process (PID=249) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:31:54.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:31:54.741+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:31:54.740+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:31:54.744+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:31:54.761+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.028 seconds
+[2026-02-21T14:32:24.968+0000] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:32:24.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:32:24.972+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:32:24.972+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:32:24.976+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:32:24.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.032 seconds
+[2026-02-21T14:32:55.664+0000] {processor.py:161} INFO - Started process (PID=263) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:32:55.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:32:55.667+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:32:55.667+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:32:55.671+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:32:55.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.038 seconds
+[2026-02-21T14:33:26.253+0000] {processor.py:161} INFO - Started process (PID=270) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:33:26.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:33:26.283+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:33:26.280+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:33:26.317+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:33:26.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.312 seconds
+[2026-02-21T14:33:57.410+0000] {processor.py:161} INFO - Started process (PID=277) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:33:57.411+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:33:57.412+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:33:57.412+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:33:57.415+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:33:57.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.025 seconds
+[2026-02-21T14:34:27.812+0000] {processor.py:161} INFO - Started process (PID=284) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:34:27.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:34:27.816+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:34:27.816+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:34:27.819+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:34:27.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.027 seconds
+[2026-02-21T14:34:58.578+0000] {processor.py:161} INFO - Started process (PID=291) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:34:58.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:34:58.580+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:34:58.579+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:34:58.582+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:34:58.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.024 seconds
+[2026-02-21T14:35:28.973+0000] {processor.py:161} INFO - Started process (PID=298) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:35:28.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:35:28.977+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:35:28.977+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:35:28.980+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:35:28.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.027 seconds
+[2026-02-21T14:35:59.365+0000] {processor.py:161} INFO - Started process (PID=305) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:35:59.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:35:59.367+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:35:59.367+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:35:59.370+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:35:59.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.024 seconds
+[2026-02-21T14:36:29.767+0000] {processor.py:161} INFO - Started process (PID=312) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:36:29.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:36:29.770+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:36:29.770+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:36:29.773+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:36:29.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.025 seconds
+[2026-02-21T14:37:00.173+0000] {processor.py:161} INFO - Started process (PID=319) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:37:00.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:37:00.175+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:37:00.175+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:37:00.178+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:37:00.192+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.025 seconds
+[2026-02-21T14:37:30.260+0000] {processor.py:161} INFO - Started process (PID=326) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:37:30.262+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:37:30.264+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:37:30.264+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:37:30.267+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:37:30.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.027 seconds
+[2026-02-21T14:38:00.679+0000] {processor.py:161} INFO - Started process (PID=333) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:38:00.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T14:38:00.681+0000] {logging_mixin.py:188} INFO - [2026-02-21T14:38:00.681+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:38:00.684+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T14:38:00.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tutorial_4_my_turn.py took 0.029 seconds
+[2026-02-21T15:31:46.820+0000] {processor.py:161} INFO - Started process (PID=340) to work on /opt/airflow/dags/tutorial_4_my_turn.py
+[2026-02-21T15:31:46.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tutorial_4_my_turn.py for tasks to queue
+[2026-02-21T15:31:46.838+0000] {logging_mixin.py:188} INFO - [2026-02-21T15:31:46.837+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_4_my_turn.py
